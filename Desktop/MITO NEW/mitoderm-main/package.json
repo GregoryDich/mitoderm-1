@@ -9,9 +9,12 @@
   },
   "scripts": {
     "dev": "next dev",
+    "dev:https": "HTTPS=true next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate-ssl": "node scripts/generate-ssl.js",
+    "update-deps": "node scripts/update-dependencies.js"
   },
   "dependencies": {
     "@next/env": "^15.1.0",

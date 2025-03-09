@@ -6,8 +6,12 @@ import { useSession, signOut } from 'next-auth/react';
 import styles from './AdminDashboard.module.scss';
 import GalleryManager from '../GalleryManager/GalleryManager';
 import ReviewsManager from '../ReviewsManager/ReviewsManager';
+import BlogManager from '../BlogManager/BlogManager';
+import ContentManager from '../ContentManager/ContentManager';
+import SeoManager from '../SeoManager/SeoManager';
+import AnalyticsManager from '../AnalyticsManager/AnalyticsManager';
 
-type TabType = 'gallery' | 'reviews';
+type TabType = 'gallery' | 'reviews' | 'blog' | 'content' | 'seo' | 'analytics';
 
 const AdminDashboard: FC = () => {
   const t = useTranslations('admin');
@@ -61,11 +65,39 @@ const AdminDashboard: FC = () => {
         >
           {t('reviewsTab')}
         </button>
+        <button
+          className={`${styles.tabButton} ${activeTab === 'blog' ? styles.active : ''}`}
+          onClick={() => setActiveTab('blog')}
+        >
+          {t('blogTab')}
+        </button>
+        <button
+          className={`${styles.tabButton} ${activeTab === 'content' ? styles.active : ''}`}
+          onClick={() => setActiveTab('content')}
+        >
+          {t('contentTab')}
+        </button>
+        <button
+          className={`${styles.tabButton} ${activeTab === 'seo' ? styles.active : ''}`}
+          onClick={() => setActiveTab('seo')}
+        >
+          {t('seoTab')}
+        </button>
+        <button
+          className={`${styles.tabButton} ${activeTab === 'analytics' ? styles.active : ''}`}
+          onClick={() => setActiveTab('analytics')}
+        >
+          {t('analyticsTab')}
+        </button>
       </div>
 
       <div className={styles.tabContent}>
         {activeTab === 'gallery' && <GalleryManager />}
         {activeTab === 'reviews' && <ReviewsManager />}
+        {activeTab === 'blog' && <BlogManager />}
+        {activeTab === 'content' && <ContentManager />}
+        {activeTab === 'seo' && <SeoManager />}
+        {activeTab === 'analytics' && <AnalyticsManager />}
       </div>
     </div>
   );

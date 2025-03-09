@@ -303,4 +303,4 @@ const ReviewsManager: FC = () => {
   );
 };
 
-export default ReviewsManager; 
+export default ReviewsManager;

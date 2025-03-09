@@ -74,3 +74,18 @@ export const debounce = <T extends (...args: any[]) => any>(
     timeout = setTimeout(later, wait);
   };
 };
+
+/**
+ * Создает SEO-дружественный slug из строки
+ * @param text Строка для преобразования в slug
+ * @returns Преобразованный slug
+ */
+export function createSlug(text: string): string {
+  return text
+    .toLowerCase()
+    .trim()
+    .replace(/[^\w\s-]/g, '') // Удаляем все кроме букв, цифр, пробелов и дефисов
+    .replace(/\s+/g, '-') // Заменяем пробелы на дефисы
+    .replace(/-+/g, '-') // Заменяем несколько дефисов подряд на один
+    .replace(/^-+|-+$/g, ''); // Удаляем дефисы в начале и конце
+}
