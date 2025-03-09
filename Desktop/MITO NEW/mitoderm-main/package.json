@@ -14,7 +14,8 @@
     "start": "next start",
     "lint": "next lint",
     "generate-ssl": "node scripts/generate-ssl.js",
-    "update-deps": "node scripts/update-dependencies.js"
+    "update-deps": "node scripts/update-dependencies.js",
+    "setup-mongodb": "node scripts/setup-mongodb.js"
   },
   "dependencies": {
     "@next/env": "^15.1.0",

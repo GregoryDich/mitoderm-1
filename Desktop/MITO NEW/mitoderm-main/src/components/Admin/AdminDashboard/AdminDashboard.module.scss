@@ -3,9 +3,6 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .header {
@@ -13,14 +10,13 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 2rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #eee;
 }
 
 .title {
-  font-size: 1.8rem;
-  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 700;
   color: #333;
+  margin: 0;
 }
 
 .userInfo {
@@ -30,42 +26,54 @@
 }
 
 .userName {
-  font-size: 0.9rem;
-  color: #555;
+  font-weight: 500;
+  color: #6c757d;
 }
 
 .logoutButton {
   padding: 0.5rem 1rem;
-  background-color: #dc3545;
-  color: white;
-  border: none;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
   border-radius: 5px;
-  font-size: 0.9rem;
+  color: #dc3545;
+  font-size: 0.95rem;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: all 0.3s;
   
   &:hover {
-    background-color: #c82333;
+    background-color: #dc3545;
+    color: white;
+    border-color: #dc3545;
   }
 }
 
 .tabs {
   display: flex;
-  gap: 1rem;
+  gap: 0.5rem;
   margin-bottom: 2rem;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #dee2e6;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  
+  &::-webkit-scrollbar {
+    height: 4px;
+  }
+  
+  &::-webkit-scrollbar-thumb {
+    background-color: #adb5bd;
+    border-radius: 2px;
+  }
 }
 
 .tabButton {
   padding: 0.75rem 1.5rem;
   background-color: transparent;
   border: none;
-  border-bottom: 2px solid transparent;
+  border-bottom: 3px solid transparent;
   font-size: 1rem;
-  font-weight: 500;
-  color: #555;
   cursor: pointer;
   transition: all 0.3s;
+  white-space: nowrap;
   
   &:hover {
     color: #007bff;
@@ -74,18 +82,21 @@
   &.active {
     color: #007bff;
     border-bottom-color: #007bff;
+    font-weight: 500;
   }
 }
 
 .tabContent {
-  min-height: 400px;
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
 }
 
 .loading {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  font-size: 1.2rem;
-  color: #555;
+  height: 50vh;
+  font-size: 1.25rem;
+  color: #6c757d;
 } 

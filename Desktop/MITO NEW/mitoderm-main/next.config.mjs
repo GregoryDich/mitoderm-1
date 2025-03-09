@@ -27,10 +27,7 @@ const nextConfig = {
   images: {
     domains: ['localhost'],
   },
-  // Настройка для HTTPS в режиме разработки
-  devServer: {
-    https: httpsConfig,
-  },
+  // HTTPS config is now handled through the server options
   async redirects() {
     return [
       {
@@ -40,6 +37,8 @@ const nextConfig = {
       },
     ];
   },
+  // В Next.js 14 конфигурация сервера разработки осуществляется через env переменную HTTPS=true
+  // А сертификаты настраиваются через переменные окружения NODE_EXTRA_CA_CERTS, SSL_CRT_FILE и SSL_KEY_FILE
 };
 
 export default withNextIntl(nextConfig);
