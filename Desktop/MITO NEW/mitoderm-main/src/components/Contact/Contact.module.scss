@@ -1,0 +1,115 @@
+.section {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cardContainer {
+  border-radius: 48px;
+  overflow: hidden;
+  min-height: 558px;
+}
+
+.iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 558px;
+}
+
+.contacts {
+  display: flex;
+  gap: 10px;
+}
+
+.contactsItem {
+  display: flex;
+  flex-direction: column;
+  padding: 48px 88px 48px 88px;
+  background-color: var(--colorWhite);
+  border-radius: 48px;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.contactsItem p {
+  height: 48px;
+}
+
+.item2textBox {
+  display: flex;
+  height: 100%;
+  gap: 40px;
+}
+
+.contactsItemTitle {
+  font-size: var(--fontSizeMobH2);
+}
+
+.text {
+  font-size: var(--fontSizeP2);
+  display: flex;
+  align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.item2text,
+.linkBox {
+  height: 48px;
+  display: flex;
+  gap: 10px;
+}
+
+.item2textBox .text {
+  height: 48px;
+}
+
+@media screen and (max-width: 1224px) {
+  .content {
+    padding-inline: 20px;
+  }
+  .iframe {
+    z-index: 5;
+  }
+  .contacts {
+    flex-direction: column;
+    margin-top: -140px;
+    z-index: 8;
+  }
+  .contactsItem {
+    padding: 24px 20px 20px 20px;
+  }
+  .item2textBox {
+    padding-bottom: 80px;
+    position: relative;
+  }
+  .item2textBox .column {
+    justify-content: flex-start;
+  }
+  .contactsItemTitle {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .linkBox {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}

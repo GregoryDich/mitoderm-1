@@ -1,0 +1,27 @@
+.link {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--colorBG);
+}
+
+.link img {
+  transition: all 0.2s linear;
+}
+
+.link:hover img {
+  opacity: 60%;
+}
+
+@media screen and (max-width: 1224px) {
+  .link {
+    width: 62px;
+    height: 62px;
+  }
+  .wide {
+    width: 46% !important;
+  }
+}

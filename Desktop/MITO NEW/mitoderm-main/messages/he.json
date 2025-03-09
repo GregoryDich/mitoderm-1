@@ -1,0 +1,298 @@
+{
+  "navigation": {
+    "product": "מוצרים",
+    "results": "תוצאות",
+    "about": "אודותינו",
+    "info": "מידע נוסף",
+    "contact": "צור קשר",
+    "event": "אירוע",
+    "agenda": "תוכנית האירוע"
+  },
+  "buttons": {
+    "contact": "צור קשר",
+    "learnMore": "למידע נוסף",
+    "moreAbout": "עוד עלינו",
+    "contactForPrice": "לקבלת פרטים על מחירים",
+    "contactForInfo": "לקבלת מידע נוסף",
+    "requestCallback": "בקשה לשיחה חוזרת",
+    "contactForSolutions": "לקבלת פתרונות מותאמים אישית",
+    "seat": "הזמנת מקום",
+    "reserveSeat": "הזמנת מקום"
+  },
+  "form": {
+    "titleP1": "לקבלת פתרונות",
+    "titleP2": "מותאמים ",
+    "titleP3": "לקליניקה שלך",
+    "subtitle": "השאר הודעה ונציגנו יצרו עמך קשר",
+    "placeholderInputName": "שם ושם משפחה",
+    "placeholderInputID": "מספר תעודת זהות",
+    "placeholderEmailName": "אימייל",
+    "placeholderPhoneName": "טלפון",
+    "placeholderProfession": "מקצוע",
+    "checkboxLabel": "אני מסכים/ה לתנאי מיטודרם בע״מ*",
+    "sharing": "המידע שתמסור משמש את חברת מיטודרם בע\"מ בלבד *",
+    "errors": {
+      "name_length": "השם חייב להכיל לפחות 3 תווים",
+      "name_required": "שם הוא שדה חובה",
+      "id_required": "מספר תעודת זהות נדרש",
+      "id_length": "מספר תעודת זהות צריך להיות באורך 9 ספרות",
+      "email_required": "אימייל הוא שדה חובה",
+      "email_invalid": "אימייל לא תקין",
+      "phone_required": "מספר הטלפון הוא שדה חובה",
+      "phone_length": "מספר הטלפון חייב להכיל לפחות 10 תווים",
+      "profession_length": "שם המקצוע חייב להיות באורך של לפחות 3 תווים",
+      "profession_required": "שם המקצוע נדרש"
+    },
+    "sent": {
+      "mobTitle": "איזה כיף!",
+      "text": "הטופס נשלח",
+      "textColored": "בהצלחה"
+    },
+    "eventTitle": "הבטיחו את מקומכם בארוע",
+    "numberTickets": "כרטיס",
+    "total": "סה׳׳כ",
+    "promo": "קוד קופון",
+    "apply": "להגיש",
+    "success": "אתה מקבל הנחה של 10%",
+    "wrongPromo": "קוד קופון שגוי"
+  },
+  "intro": {
+    "subtitleP1": "מוצר מקוראה הדרומית",
+    "subtitleP2": "מפיץ בלעדי",
+    "title": "אקסוזום EXOXE בישראל",
+    "text": "מיטודרם היא חברת בת של קבוצה גלובלית עשירת ניסיון המתמחה בהפצת מכשור רפואי ואסתטיקה מתקדמת באסיה, אוסטרליה וארה׳׳ב. עם שילוב של חדשנות ומדע, מומחיות וניסיון רב שנים אנו כאן כדי להוביל את הדור הבא של עולם האסתטיקה המקצועית גם בישראל. האם את/ה רופא/ה או קוסמטיקאי/ת? מעוניינ/ת לשדרג את הקליניקה ולהביא פתרונות אסתטיים חדשניים? הצטרפו למשפחת מיטודרם",
+    "eventSubtitle": "כנס אינטימי ומעורר השראה",
+    "eventTitle": "להצטרפות לכנס של מיטודרם"
+  },
+  "howToUse": {
+    "titleP1": "כיצד",
+    "titleP2": " ניתן להשתמש ",
+    "titleP3": "ב-EXOXE",
+    "item1": "צלקות כירורגיות לאחר ניתוחים",
+    "item2": "אקנה וצלקות פוסט אקנה",
+    "item3": "דילול ונשירת שיער",
+    "item4": "התחדשות העור"
+  },
+  "about": {
+    "titleP1": " מהו ",
+    "titleP2": "אקסוזום?",
+    "text1": "אקסוזומים מציעים פתרונות חדשניים וטכנולוגיה מתקדמת אשר זכו לתשומת לב בתחום האסתטיקה בשל הפוטנציאל הרב שלהם. ",
+    "text1Colored": "יכולת של התחדשות העור, האטת קצב הזדקנות העור ופריצות דרך בטיפול באקנה וצלקות פוסט אקנה, שיפור מרקם וגוון העור ואפילו בדילול ונשירת שיער.",
+    "text2": "אקסוזומים אלו עשירים בפקטורי גדילה, ציטוקינים ומולקולות ביו-אקטיביות אחרות שיש להן פוטנציאל חדירה לתאים ויכולת להפעיל שרשרת אירועים בתוך התא. ",
+    "text2Colored": "כך שהתאים חושבים שזו פעילות טבעית ורגילה.  היכולת לקדם התחדשות רקמות, סינתזת קולגן, הפחתה בדלקות, שיפור צלקות ומראה צעיר וזוהר יותר בשילוב עם טכנולוגיות מתקדמות היא פנומנלית.",
+    "itemExp1": "6 מיליארד אקסוזומים",
+    "itemExp2": "הפחתה בדלקות",
+    "itemExp3": "חלבונים, ציטוקינים ופקטורי גדילה",
+    "itemExp4": "עליה בקולגן וחומצה היאלורונית תוך תאית",
+    "itemExp5": "ננומטר"
+  },
+  "solution": {
+    "titleP1": "הפתרון שלנו -",
+    "titleP2": " Exoxe ",
+    "titleP3": "אקסוזום",
+    "subtitle": "לשימוש מקצועי בלבד",
+    "item1title": "Pure exo - lyophilized powder 50mg",
+    "item1textP1": "Hydrolyzed Collagen - 886,000PPM",
+    "item1textP2": "Collagen - 100,000PPM",
+    "item1textP3": "Sodium Hyaluronate",
+    "item1textP4": "Trehalose",
+    "item2title": "Sterilized solution 5ml",
+    "item2textP1": "Aqua",
+    "item2textP2": "Sodium Hyaluronate",
+    "usage": "לשימוש מקצועי בלבד"
+  },
+  "faq": {
+    "title": "שאלות נפוצות",
+    "item1": {
+      "title": "מה הם אקסוזומים?",
+      "text": "אקסוזומים הם וזיקולות-בועיות זעירות, עשירות בפקטורי גדילה, חלבונים וציטוקינים. בגודל של 60 עד 150 ננומטר, היחידים בעולם האסתטי היודעים להתמזג עם תאים בעור ולתת להם שרשרת של פקודות. שליחים רבי עוצמה אלו מתקשרים עם תאי הגוף ומעודדים ריפוי והתחדשות."
+    },
+    "item2": {
+      "title": "כיצד פועלים האקסוזומים?",
+      "text": "אקסוזומים מכילים יותר מ-70 פקטורי גדילה, חלבונים וציטוקינים שהם כמו \"סמסים\" ישירות לתאי המטרה בגוף. מיד בחדירתם לעור, הם מתקשרים עם התאים כדי לעודד תיקון והתחדשות. על ידי ניצול תהליכי הריפוי הטבעיים של הגוף, טיפול באקסוזומים מעורר חידוש רקמות, מגביר ייצור קולגן ומשפר את בריאות התאים הכללית. התוצאה היא שיפור משמעותי באזור המטופל — בין אם מדובר בעור, שיער או אזורים ספציפיים אחרים."
+    },
+    "item3": {
+      "title": "אילו מצבים ניתן לשפר בעזרת אקסוזומים?",
+      "text": "חברת מיטודרם מציעה טיפול באקסוזומים מדרום קוריאה בסטנדרטים הגבוהים ביותר. בשילוב עם אוניברסיטת סאול, האקסוזומים שלנו מציעים פתרונות בננוטכנולוגיה הכוללים התחדשות עור לשיפור מרקם והפחתת סימני הזדקנות; שיקום שיער לקידום צמיחה וטיפול בדילול שיער; הפחתת צלקות אקנה לעור חלק יותר והפחתת דלקות לאחר פרוצדורות טיפוליות או אקנה — כל זאת על ידי ניצול היכולת הטבעית של הגוף להשתמש בפקטורי הגדילה ובחומרים הפעילים שבאקסוזומים."
+    }
+  },
+  "reviews": {
+    "title": "ביקורות",
+    "item1": {
+      "name": "ויקטוריה אסלאניאן",
+      "text": "כרופאה ובעלת קליניקה, אני משלבת טיפולים מתקדמים עם אקסוזומים בעבודתי. התוצאות מדהימות! המטופלים שלי נהנים מעור חלק ומחודש, והמוצרים הפכו לאבן יסוד בהיצע הקליניקה שלי. אני בהחלט ממשיכה עם הטיפולים האלו!"
+    },
+    "item2": {
+      "name": "גרגורי דיאצ'נקו",
+      "text": "עברתי חוויה מדהימה עם טיפול האקסוזומים לדילול שיער, ואני רוצה להודות במיוחד לאילונה. תוך כמה חודשים בלבד השיער שלי עבר ממצב דליל לעבה ובריא יותר. אני ממש מתרשם מהשינוי!"
+    }
+  },
+  "gallery": {
+    "title": "גלריה",
+    "before": "לפני",
+    "after": "אחרי"
+  },
+  "dream": {
+    "titleP1": "כשהמדע",
+    "titleP2": "פוגש ביופי",
+    "textP1": "מיטודרם מגשימה חזון על ידי התמקדות בשילוב של יופי, מדע וטכנולוגיה. החברה מובילה את תחום המדע והיופי על ידי מתן פתרונות חדשניים ויעילים לאנשי מקצוע בתחום האסתטיקה, ומקדמת אותם לרמה אחת מעל כולם.",
+    "textP2": "",
+    "textP3": "",
+    "textP4": "",
+    "textP5": "תשדרגו את הקליניקה שלכם והעניקו למטופלים שלכם את הטיפול המתקדם ביותר.  המחויבות שלנו לאיכות ומקצועיות, בסביבה תומכת שתעצים אתכם, תקדם אתכם מבחינה אישית ותסייע לכם להוביל גם ברמה המקצועית. במיטודרם, אנו מספקים פתרונות מתקדמים להתחדשות עור, אנטי-אייג'ינג, דילול שיער ובעיות עור אחרות, המותאמים לצרכים הייחודיים שלכם. הכירו את הייחודיות שלנו עוד היום.",
+    "textP6": "",
+    "textP7": ""
+  },
+  "contactUs": {
+    "item1title": "צור/י קשר",
+    "phone": "טלפון",
+    "phoneText": "לכל הפרטים:",
+    "address": "כתובת",
+    "addressText": "רפאל איתן 38, רמת גן, 5590500",
+    "email": "אימייל",
+    "emailText": "info@mitoderm.com",
+    "item2title": "שעות פעילות",
+    "workWeek": "ראשון - חמישי",
+    "friday": "שישי",
+    "fridayText": "בתיאום מראש בלבד",
+    "saturday": "שבת",
+    "closed": "סגור",
+    "followUs": "עקבו אחרינו"
+  },
+  "footer": {
+    "copyright": "© כל הזכויות שמורות למיטודרם בע\"מ",
+    "accessibility": "הצהרת נגישות",
+    "privacy": "מדיניות פרטיות",
+    "group": "SinoSciences Group"
+  },
+  "accessibility": {
+    "title": "Accessibility Declaration for mitoderm.com and mitoderm.co.il",
+    "general": "General Information",
+    "websites": "The websites mitoderm.com and mitoderm.co.il are committed to providing equal access to all digital services for people with disabilities in accordance with international accessibility standards. We are continuously working to improve the usability of our websites to make them accessible to a wide audience.",
+    "interfaceTitle": "Interface Accessibility",
+    "interfaceText": "The website is adapted following WCAG 2.1 guidelines (Levels A and AA), including:",
+    "readers": "Support for screen readers.",
+    "navigating": "Navigation via keyboard.",
+    "contrast": "High-contrast design for visually impaired users.",
+    "alt": "Image descriptions using the ALT attribute.",
+    "scaling": "Easy font scaling and interface adjustments.",
+    "feedbackTitle": "Feedback",
+    "difficulties": "If you encounter difficulties using the mitoderm.com or mitoderm.co.il websites, please let us know:",
+    "email": "Email",
+    "phone": "Phone",
+    "feedbackHelp": "Your feedback helps us improve accessibility.",
+    "obligationsTitle": "Legal Obligations",
+    "obligationsText": "This declaration is made in accordance with the legal requirements of Israel and international accessibility standards. It will be updated as website functionality changes."
+  },
+  "event": {
+    "title": "מה בתוכנית?",
+    "item1": {
+      "title": "התכנסות ונטוורקינג",
+      "text": " עם כיבוד ויין משובח. הזדמנות לנטוורקינג עם קולגות  בתעשייה",
+      "time": "19:00 - "
+    },
+    "item2": {
+      "title": " סיפור אישי מאחורי הקלעים:",
+      "text": "אילונה שפקטור, מנכ"לית MitoDerm, אחות וקוסמטיקאית, תשתף את סיפור המסע שלה – התובנות, האתגרים והכלים שיכולים לעזור גם לך להאיץ את הצמיחה האישית והמקצועית שלך.",
+      "time": "19:30 - "
+    },
+    "item3": {
+      "title": " חשיפה בלעדית: מוצר אסתטי פורץ דרך",
+      "text": "הפיתוח שישנה את כללי המשחק!  מוצר פורץ דרך מקוריאה,הנמכר ב35 מדינות ברחבי העולם, שיפתח בפניך הזדמנויות חדשות בתחום האסתטיקה.",
+      "time": "20:30 - "
+    },
+    "item4": {
+      "title": "שדרגו את העסק שלכם עם המודל של מיטודרם",
+      "text": "כיצד תוכלי להשתמש במודל למינוף העסק שלך לרמות חדשות של הצלחה והכי חשוב איך ליהנות מהדרך.",
+      "time": "21:15 - "
+    }
+  },
+  "firstLook": {
+    "titleP1": "הצצה ראשונה לעתיד עולם ",
+    "titleP2": "האסתטיקה",
+    "subtitle": "MITODERM מזמינה אותך לכנס אינטימי ומעורר השראה!",
+    "textTitle": "מי אנחנו?",
+    "text": " MITODERM היא חברת בת של קבוצה גלובלית המתמחה בהפצת מכשור רפואי ואסתטיקה מתקדמת באסיה, אוסטרליה וארה"ב. עם שילוב של חדשנות, מומחיות וניסיון רב שנים, אנו כאן כדי להוביל את הדור הבא של עולם האסתטיקה המקצועית – גם בישראל."
+  },
+  "eventBullets": {
+    "item1": "טכנולוגיות חדשניות",
+    "item2": "מיומנויות מעשיות",
+    "item3": "נטוורקינג",
+    "item4": "תעודת השתתפות"
+  },
+  "toTop": {
+    "title": "ולסיום:",
+    "text1": "הטבה בלעדית: רכישה במחיר משתלם במיוחד לפני כולם!",
+    "text2": "קורס דיגיטלי לעסק מנצח-כלים אסטרטגיים לבניית בידול עסקי והגדלת רווחיות בשוק תחרותי"
+  },
+  "success": {
+    "title": "קיבלנו את התשלום שלך",
+    "client": "לקוח: ",
+    "id": "מספר תעודת זהות: ",
+    "email": "אימייל: ",
+    "phone": "טלפון: ",
+    "amount": "סכום: "
+  },
+  "admin": {
+    "title": "פאנל ניהול",
+    "description": "פאנל ניהול Mitoderm - ניהול תוכן האתר",
+    "dashboard": "לוח בקרה",
+    "dashboardDescription": "לוח בקרה Mitoderm - ניהול תוכן האתר",
+    "loginTitle": "כניסה לפאנל ניהול",
+    "email": "אימייל",
+    "emailPlaceholder": "הכנס את האימייל שלך",
+    "password": "סיסמה",
+    "passwordPlaceholder": "הכנס את הסיסמה שלך",
+    "login": "כניסה",
+    "loggingIn": "מתחבר...",
+    "loginSuccess": "התחברת בהצלחה! מעביר...",
+    "invalidCredentials": "אימייל או סיסמה שגויים",
+    "dashboardTitle": "לוח בקרה",
+    "logout": "התנתק",
+    "loading": "טוען...",
+    "galleryTab": "גלריית לפני/אחרי",
+    "reviewsTab": "ביקורות",
+    
+    "manageGallery": "ניהול גלריית לפני/אחרי",
+    "addNewBeforeAfter": "הוסף תמונות לפני/אחרי חדשות",
+    "beforeImage": "תמונת לפני",
+    "afterImage": "תמונת אחרי",
+    "displayOrder": "סדר תצוגה",
+    "orderPlaceholder": "הכנס מספר סדר תצוגה",
+    "uploadImages": "העלה תמונות",
+    "uploading": "מעלה...",
+    "existingImages": "תמונות קיימות",
+    "loadingGallery": "טוען פריטי גלריה...",
+    "noGalleryItems": "לא נמצאו פריטי גלריה",
+    "before": "לפני",
+    "after": "אחרי",
+    "delete": "מחק",
+    "bothImagesRequired": "נדרשות שתי תמונות: לפני ואחרי",
+    "galleryItemAdded": "פריט גלריה נוסף בהצלחה",
+    "galleryItemDeleted": "פריט גלריה נמחק בהצלחה",
+    "errorFetchingGallery": "שגיאה בטעינת פריטי גלריה",
+    "errorUploadingImages": "שגיאה בהעלאת תמונות",
+    "errorDeletingGalleryItem": "שגיאה במחיקת פריט גלריה",
+    "confirmDeleteGalleryItem": "האם אתה בטוח שברצונך למחוק פריט גלריה זה?",
+    
+    "manageReviews": "ניהול ביקורות",
+    "addNewReview": "הוסף ביקורת חדשה",
+    "reviewName": "שם",
+    "reviewNamePlaceholder": "הכנס שם המבקר",
+    "reviewRating": "דירוג",
+    "reviewText": "טקסט הביקורת",
+    "reviewTextPlaceholder": "הכנס טקסט ביקורת",
+    "addReview": "הוסף ביקורת",
+    "adding": "מוסיף...",
+    "existingReviews": "ביקורות קיימות",
+    "loadingReviews": "טוען ביקורות...",
+    "noReviews": "לא נמצאו ביקורות",
+    "allFieldsRequired": "כל השדות נדרשים",
+    "reviewAdded": "ביקורת נוספה בהצלחה",
+    "reviewDeleted": "ביקורת נמחקה בהצלחה",
+    "errorFetchingReviews": "שגיאה בטעינת ביקורות",
+    "errorAddingReview": "שגיאה בהוספת ביקורת",
+    "errorDeletingReview": "שגיאה במחיקת ביקורת",
+    "confirmDeleteReview": "האם אתה בטוח שברצונך למחוק ביקורת זו?"
+  }
+}

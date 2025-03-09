@@ -1,0 +1,30 @@
+.link,
+.linkMobile {
+  width: 90px;
+  height: 40px;
+  background-color: var(--colorWhite);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  gap: 5px;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+}
+
+.linkMobile {
+  width: 60px;
+  height: 26px;
+}
+
+.text {
+  font-size: var(--fontSizeP2);
+  margin-right: 15px;
+}
+
+.linkMobile .text {
+  margin-right: 10px;
+  font-size: var(--fontSizeMobExtra);
+}

@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerInner {
+  display: flex;
+  gap: 10px;
+  max-width: 1200px;
+}
+
+.title {
+  font-size: var(--fontSizeH2);
+}
+
+.itemList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.item {
+  padding: 32px 48px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--colorWhite);
+  border-radius: 48px;
+  flex: 1;
+}
+
+.round {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  color: var(--colorWhite);
+  background-color: var(--colorAccentLight);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--fontSizeP1);
+  margin-bottom: 25px;
+}
+
+.text {
+  font-size: var(--fontSizeP1);
+}
+
+.buttonBox {
+  margin: 30px 0 80px 0;
+}
+
+@media screen and (max-width: 1224px) {
+  .container {
+    align-items: flex-start;
+  }
+  .containerInner {
+    flex-direction: column-reverse;
+    gap: 20px;
+    max-width: 100%;
+    width: 100%;
+  }
+  .titleMob {
+    font-size: var(--fontSizeMobH2);
+    margin: 0 20px 20px 20px;
+    color: var(--colorAccentDark);
+  }
+  .round {
+    font-size: var(--fontSizeMobP2);
+  }
+  .text {
+    font-size: var(--fontSizeP2);
+  }
+  .itemList {
+    padding-inline: 20px;
+  }
+  .buttonBox {
+    width: 100%;
+    padding-inline: 20px;
+    margin-top: 20px;
+  }
+}

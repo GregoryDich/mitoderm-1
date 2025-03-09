@@ -1,0 +1,74 @@
+.button,
+.button.colored {
+  background-color: transparent;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+}
+
+.image {
+  filter: brightness(0) saturate(100%) invert(99%) sepia(23%) saturate(0%)
+    hue-rotate(355deg) brightness(113%) contrast(101%);
+}
+
+.button .image {
+  width: 40px;
+  height: 40px;
+  transition: all 0.2s linear;
+}
+
+.button:active {
+  background-color: #fae7ef;
+}
+
+.button.colored:active {
+  background-color: var(--colorAccentDark);
+}
+
+.image.colored {
+  filter: brightness(0) saturate(100%) invert(32%) sepia(11%) saturate(3458%)
+    hue-rotate(291deg) brightness(92%) contrast(85%);
+}
+
+.button.dark {
+  background-color: var(--colorAccentDark);
+}
+
+.image.dark {
+  filter: brightness(0) saturate(100%) invert(99%) sepia(23%) saturate(0%)
+    hue-rotate(355deg) brightness(113%) contrast(101%);
+}
+
+.button.dark:active {
+  background-color: var(--colorAccentDark);
+}
+
+.disabled {
+  background-color: lightgray !important;
+  cursor: not-allowed;
+}
+
+.disabled img {
+  filter: brightness(0) saturate(100%) invert(99%) sepia(23%) saturate(0%)
+    hue-rotate(355deg) brightness(113%) contrast(101%) !important;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .button.colored:hover .image {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%)
+      hue-rotate(288deg) brightness(102%) contrast(102%);
+  }
+  .button.colored:hover {
+    background-color: var(--colorAccentLight);
+  }
+  .button:hover {
+    background-color: var(--colorBG);
+  }
+  .button:hover .image {
+    filter: brightness(0) saturate(100%) invert(27%) sepia(86%) saturate(497%)
+      hue-rotate(290deg) brightness(93%) contrast(85%);
+  }
+}

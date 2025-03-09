@@ -1,0 +1,19 @@
+# Group 1: Allow access to all crawlers
+User-agent: *
+Allow: /
+
+# Group 2: Disallow specific private paths (if any exist)
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /*?
+
+# Sitemaps
+Sitemap: https://www.mitoderm.com/sitemap.xml
+Sitemap: https://www.mitoderm.com/en/sitemap.xml
+Sitemap: https://www.mitoderm.com/he/sitemap.xml
+Sitemap: https://www.mitoderm.com/ru/sitemap.xml
+
+# Crawl-delay: 10
+
+Host: www.mitoderm.com

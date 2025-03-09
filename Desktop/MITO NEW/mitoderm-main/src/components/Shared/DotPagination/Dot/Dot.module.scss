@@ -1,0 +1,49 @@
+.dot,
+.dotActive {
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  position: relative;
+  transition: all 0.2s linear;
+}
+
+.dot::after,
+.dotActive::after {
+  position: absolute;
+  content: '';
+  width: 8px;
+  height: 8px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  display: block;
+  background-color: #b5b5b5;
+  transition: all 0.2s linear;
+}
+
+.dot:hover,
+.dotActive {
+  border: 1px solid var(--colorWhite);
+}
+
+.dot:hover::after,
+.dotActive::after {
+  background-color: var(--colorWhite);
+}
+
+.colored:hover,
+.dotActive.colored {
+  border: 1px solid var(--colorAccentLight);
+}
+
+.colored:hover::after,
+.colored.dotActive::after {
+  background-color: var(--colorAccentLight);
+}
+
+.colored::after {
+  background-color: var(--colorAccentDark);
+}

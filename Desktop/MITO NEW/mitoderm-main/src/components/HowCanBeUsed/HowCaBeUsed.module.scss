@@ -1,0 +1,28 @@
+.section {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--colorBG);
+}
+
+.title {
+  font-size: var(--fontSizeH2);
+}
+
+.titleColored {
+  color: var(--colorAccentLight);
+}
+
+@media screen and (max-width: 1224px) {
+  .section {
+    width: 100%;
+    padding-inline: 20px;
+    gap: 15px;
+  }
+  .title {
+    font-size: var(--fontSizeMobH2);
+    z-index: 2;
+  }
+}

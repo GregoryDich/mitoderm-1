@@ -1,0 +1,120 @@
+.section {
+  width: 100vw;
+  position: relative;
+  padding-block: 10px;
+}
+
+.contentWrapper {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.lines {
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  z-index: -1;
+}
+
+.containerInner {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.title {
+  font-weight: 400;
+  font-size: var(--fontSizeH2);
+}
+
+.row {
+  padding-block: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttonBox {
+  display: flex;
+  gap: 30px;
+  padding-inline: 10px;
+}
+
+.image {
+  max-width: 50%;
+  width: 100%;
+}
+
+.reviewBox {
+  padding-right: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  gap: 20px;
+  flex-grow: 1;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+  pointer-events: none;
+}
+
+.reviewBox.he {
+  padding: 0 0 0 10px;
+}
+
+.itemBox,
+.itemBoxMobile {
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  flex: 1;
+  gap: 10px;
+}
+
+.itemBoxMobile {
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1224px) {
+  .contentWrapper {
+    flex-direction: column;
+  }
+  .mobileButtons {
+    padding-inline: 20px;
+  }
+  .containerInner {
+    max-width: 100%;
+    width: 100%;
+    overflow: hidden;
+    order: 3;
+    margin-top: 20px;
+  }
+  .title {
+    order: 1;
+    font-size: var(--fontSizeMobH2);
+    margin: 20px;
+  }
+  .image {
+    order: 2;
+    width: 100%;
+    max-width: 100%;
+  }
+  .itemBoxMobile {
+    min-width: 98%;
+  }
+  .reviewBox {
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    padding-inline: 20px;
+  }
+  .reviewBox.he {
+    padding-inline: 10px;
+  }
+  .lastItem {
+    scroll-margin: 100px;
+  }
+}

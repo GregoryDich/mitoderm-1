@@ -1,0 +1,57 @@
+.container,
+.containerMobile {
+  width: 90px;
+  height: 40px;
+  background-color: var(--colorWhite);
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  z-index: 11;
+}
+
+.containerMobile {
+  width: 60px;
+  height: 26px;
+  margin-block: auto;
+}
+
+.currenSelection {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.localeText {
+  text-transform: uppercase;
+  font-size: var(--fontSizeP2);
+}
+
+.localeText.mobile {
+  font-size: var(--fontSizeMobExtra);
+}
+
+.switchIcon {
+  transition: transform 0.2s linear;
+  transform: rotate(0deg);
+}
+
+.active {
+  transform: rotate(180deg);
+}
+
+.popup {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  bottom: -90px;
+  left: 0;
+}
+
+.containerMobile .popup {
+  bottom: -62px;
+}

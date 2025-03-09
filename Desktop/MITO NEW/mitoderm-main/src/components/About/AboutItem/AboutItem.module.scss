@@ -1,0 +1,37 @@
+.container {
+  background-color: var(--colorWhite);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 48px auto;
+  align-items: center;
+  min-width: 30%;
+  flex: 1;
+  height: 200px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.data {
+  color: var(--colorAccentLight);
+  font-size: var(--fontSizeH2);
+}
+
+.text {
+  font-size: var(--fontSizeP1);
+}
+
+@media screen and (max-width: 1224px) {
+  .container {
+    text-align: start;
+    padding-inline: 30px;
+    min-height: 120px;
+    align-items: flex-start;
+  }
+  .data {
+    font-size: 40px;
+  }
+  .text {
+    font-size: var(--fontSizeMobP1);
+  }
+}

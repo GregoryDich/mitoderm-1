@@ -1,0 +1,104 @@
+.itemWrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--colorWhite);
+  padding: 20px;
+  max-width: 100%;
+  width: 100%;
+  border-radius: 32px;
+}
+
+.imageBox {
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+  pointer-events: none;
+  position: relative;
+  flex: 1;
+}
+
+.imageBox::-webkit-scrollbar {
+  display: none;
+}
+
+.item {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  scroll-snap-align: start;
+  flex-direction: column;
+  min-width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.imageContainer {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 24px;
+  flex: 1;
+}
+
+.imageContainer:nth-last-child(1) {
+  flex-direction: column-reverse;
+}
+
+.image {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: 1;
+}
+
+.image img {
+  max-height: 193px;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 55px;
+  background-color: var(--colorBG);
+  font-size: var(--fontSizeMobP1);
+}
+
+.roundLabel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  background-color: var(--colorAccentLight);
+  font-size: var(--fontSizeMobP1);
+  color: var(--colorWhite);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.mobileButtonContainer {
+  width: 100%;
+  padding-inline: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .itemWrapper {
+    max-height: 560px;
+  }
+}

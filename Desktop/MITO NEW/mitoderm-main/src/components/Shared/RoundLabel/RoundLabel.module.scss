@@ -1,0 +1,40 @@
+.container {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: var(--colorAccentLight);
+  color: var(--colorWhite);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 40px;
+  top: 50%;
+  right: -5px;
+  transform: translate(50%, -50%);
+  user-select: none;
+  z-index: 8;
+}
+
+.container.he {
+  right: auto;
+  left: -5px;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 1224px) {
+  .container {
+    top: auto;
+    left: 50%;
+    right: auto;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+  }
+  .container.he {
+    left: auto;
+    right: 50%;
+    transform: translate(50%, 50%);
+  }
+}

@@ -1,0 +1,56 @@
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: var(--colorBG);
+  padding-block: 10px;
+  z-index: 10;
+}
+
+.container {
+  max-width: var(--contentWidthDesktop);
+  height: 40px;
+  width: 100%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  user-select: none;
+  cursor: pointer;
+}
+
+.logoContainer img {
+  -webkit-user-drag: none;
+}
+
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  filter: blur(5px);
+  background-color: var(--colorBG);
+  opacity: 70%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 0.3s linear;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.overlay.active {
+  opacity: 70%;
+  pointer-events: all;
+}
+
+@media screen and (max-width: 1224px) {
+  .header {
+    height: 72px;
+    padding: 0 80px 0 20px;
+  }
+}

@@ -1,0 +1,65 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 536px;
+}
+
+.navigation.formPage {
+  min-width: unset;
+}
+
+.button {
+  background-color: transparent;
+  color: var(--colorAccentDark);
+  font-size: var(--fontSizeP2);
+  line-height: 24px;
+  padding-inline: 10px;
+}
+
+.arrowIcon {
+  margin: 0 0 2px 5px;
+}
+
+.arrowIcon.reversed {
+  margin: 0 5px 2px 0;
+}
+
+.mobileNavigation {
+  position: absolute;
+  top: 72px;
+  left: 0;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0 0 50px 50px;
+  background-color: var(--colorBG);
+  transition: all 1s linear;
+  height: 0;
+  overflow: hidden;
+}
+
+.linkContainerMobile {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 60px;
+}
+
+.buttonMobile {
+  user-select: none;
+  width: 100%;
+  padding: 20px 40px;
+  color: var(--colorAccentDark);
+  background-color: transparent;
+  font-size: var(--fontSizeP2);
+  text-align: end;
+}
+
+.linkContainerMobile:last-child {
+  margin-bottom: 40px;
+}
+
+.mobileNavigation.active {
+  height: auto;
+}

@@ -1,0 +1,39 @@
+.button {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  background-color: transparent;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+}
+
+.button:nth-child(1) {
+  margin-bottom: 5px;
+}
+
+.line {
+  width: 20px;
+  height: 3px;
+  border-radius: 50px;
+  background-color: #000;
+  transform: translate(0, 0);
+  transition: all 0.2s linear;
+}
+
+.line2 {
+  margin-block: 3px;
+}
+
+.button.active .line2 {
+  width: 0;
+}
+
+.button.active .line1 {
+  transform: rotate(45deg) translate(4px, 3.5px);
+}
+
+.button.active .line3 {
+  transform: rotate(-45deg) translate(5px, -4.5px);
+}

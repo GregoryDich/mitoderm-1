@@ -1,0 +1,127 @@
+.inputLabel {
+  display: flex;
+  flex-direction: column;
+  font-size: var(--fontSizeMobP2);
+  color: var(--colorAccentDark);
+  cursor: pointer;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.labelText {
+  margin-bottom: 6px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.inputLabel:focus-within .labelText {
+  color: var(--colorAccentLight);
+}
+
+.inputLabel input {
+  height: 53px;
+  padding-inline: 15px;
+  border-radius: 12px;
+  outline: none;
+  border: none;
+  background-color: var(--colorBG);
+  font-size: var(--fontSizeP2);
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+  color: var(--colorAccentDark);
+}
+
+.inputLabel input::placeholder {
+  color: #222222;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.inputLabel input:hover {
+  border: 1px solid var(--colorAccentLight);
+}
+
+.inputLabel input:focus {
+  border: 1px solid var(--colorAccentDark);
+  box-shadow: 0 0 0 3px rgba(156, 62, 92, 0.2);
+}
+
+.inputLabel input:focus::placeholder {
+  opacity: 0.3;
+}
+
+.inputLabel .error {
+  border: 1px solid #d00043;
+  animation: shake 0.4s ease;
+}
+
+.inputLabel input.error:focus {
+  box-shadow: 0 0 0 3px rgba(208, 0, 67, 0.2);
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% { transform: translateX(-2px); }
+  20%, 40%, 60%, 80% { transform: translateX(2px); }
+}
+
+.errorText {
+  font-size: var(--fontSizeMobP2);
+  color: #d00043;
+  margin-top: 5px;
+  min-height: 14px;
+  animation: fadeIn 0.3s ease;
+  display: flex;
+  align-items: center;
+}
+
+.errorText::before {
+  content: "⚠️";
+  font-size: 10px;
+  margin-right: 5px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-3px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media screen and (max-width: 1224px) {
+  .inputLabel {
+    font-size: var(--fontSizeMobExtra);
+    margin-bottom: 12px;
+  }
+  
+  .labelText {
+    margin-bottom: 4px;
+  }
+  
+  .inputLabel input {
+    height: 42px;
+    font-size: var(--fontSizeMobP2);
+    border-radius: 8px;
+  }
+  
+  .inputLabel input::placeholder {
+    font-size: var(--fontSizeMobP2);
+  }
+  
+  .errorText {
+    font-size: var(--fontSizeMobExtra);
+    min-height: 12px;
+  }
+}
+
+/* Touch screen optimizations */
+@media (hover: none) {
+  .inputLabel input:hover {
+    border: 1px solid transparent;
+  }
+}
+
+/* Dark mode optimization for future use */
+@media (prefers-color-scheme: dark) {
+  .inputLabel input {
+    background-color: rgba(250, 245, 247, 0.9);
+  }
+}
